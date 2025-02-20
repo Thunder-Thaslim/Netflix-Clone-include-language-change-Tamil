@@ -1,0 +1,54 @@
+     
+     <div class="svg-container">
+        <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="redGradient" x1="100%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="rgba(255, 0, 100, 0.8)" />
+              <stop offset="100%" stop-color="rgba(255, 0, 255, 0)" />
+            </linearGradient>
+          </defs>
+          <path d="M 10 240 Q 300 210 550 240" stroke="url(#redGradient)" fill="transparent" stroke-width="2"/>
+        </svg>
+
+      </div>
+
+     <div class="curved">
+        <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <linearGradient id="blueGradient" x1="100%" y1="0%" x2="100%" y2="8%">
+                <stop offset="0%" stop-color="rgba(0, 0, 255, 0.4)" />
+                <stop offset="100%" stop-color="rgba(0, 0, 255, 0)" />
+              </linearGradient>
+            </defs>
+            <path d="M 1 240 Q 300 210 550 240 L 1200 400 L 0 300 Z" fill="url(#blueGradient)"/>
+          </svg>
+
+
+          <style>
+          .svg-container {
+    margin-top: 10%;
+    padding-left: 4%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .svg-container svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .curved {
+    margin-top: -47.8%;
+    padding-left: 4%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .curved svg {
+    width: 100%;
+    height: auto;
+  }
+          </style>
