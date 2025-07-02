@@ -14,6 +14,18 @@ body {
      margin: 0;
 }
 
+  .disclaimer {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 12px 20px;
+    margin: 20px;
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
 .bg{
     background-color: black;
     background-image:linear-gradient(to bottom, black, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6) 0%, black), url("../img/ThunderFlix_Backgroud.jpg");
